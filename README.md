@@ -1,11 +1,13 @@
-0x01. Shell, permissions
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your scripts will be tested on Ubuntu 20.04 LTS
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
-All your files should end with a new line (why?)
-The first line of all your files should be exactly #!/bin/bash
-A README.md file, at the root of the folder of the project, describing what each script is doing
-You are not allowed to use backticks, &&, || or ;
-All your files must be executable
+0-iam_betty: This script changes your user ID to betty.
+1-who_am_i: This script prints the effective userid of current user.
+2-groups: This script prints all the groups the current user is part of.
+3-new_owner: This script changes the owner of the file hello to the user betty.
+4-empty: This script creates an empty file called hello.
+5-execute: This script adds execute permission to the owner of the file hello.
+6-multiple_permissions: This script adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+7-everybody: This script adds execution permission to the owner, the group owner and the other users to the file hello.
+8-James_Bond: This script sets the permission to the file hello as James Bond.
+9-John_Doe: This script sets the mode of the hello file as John Doe.
+10-mirror_permissions: This script sets the mode of the file hello the same as olleh's mode.
+11-directories_permissions: This script adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+12-directory_permissions: This script creates a directory called dir_holberton with permissions 751 in the working directory.
